@@ -14,7 +14,7 @@ destination:
   namespace: p49-beamline
 source:
   repoURL: https://github.com/epics-containers/p49-services
-  targetRevision: 2024.9.1
+  targetRevision: 2024.9.2
 
 # list of services to deploy. Each item is of the form:
 # - service: service name as it appears in K8S (statefulset/deployment name)
@@ -33,4 +33,13 @@ services:
   p49-ea-test-01:
     enabled: true
     ec_service: true
-    targetRevision: 2024.9.1
+  bl49p-ea-panda-01:
+    ec_service: true
+  bl49p-ea-dcam-01:
+    ec_service: true
+  bl49p-ea-dcam-02:
+    ec_service: true
+  bl49p-mo-ioc-01:
+    ec_service: true
+  bl49p-ea-test-01:
+    ec_service: true
