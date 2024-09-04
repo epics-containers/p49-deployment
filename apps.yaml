@@ -1,0 +1,21 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: p49
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  project: p49-beamline
+  destination:
+    name: argus
+    namespace: p49-beamline
+  source:
+    path: apps
+    repoURL: https://github.com/epics-containers/p49-deployment
+    targetRevision: main
+    helm:
+      version: v3
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
