@@ -29,6 +29,14 @@ services:
   epics-pvcs:
   epics-opis:
 
+  # daq services ###############################################################
+  daq-rabbitmq:
+    targetRevision: main
+  daq-blueapi:
+    targetRevision: main
+  daq-nexus:
+    targetRevision: main
+
   # epics iocs #################################################################
   p49-ea-test-01:
     enabled: true
