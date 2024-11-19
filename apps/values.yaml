@@ -31,11 +31,11 @@ services:
 
   # daq services ###############################################################
   daq-rabbitmq:
-    targetRevision: add-blueapi-nexus-rabbitmq
+    targetRevision: main
   daq-blueapi:
-    targetRevision: add-blueapi-nexus-rabbitmq
+    targetRevision: main
   daq-nexus:
-    targetRevision: add-blueapi-nexus-rabbitmq
+    targetRevision: main
 
   # epics iocs #################################################################
   p49-ea-test-01:
