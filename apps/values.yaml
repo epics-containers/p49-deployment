@@ -52,3 +52,6 @@ ec_services:
   bl49p-mo-ioc-01:
     targetRevision: 2024.11.2
     enabled: true
+  p49-debug-demo:
+    targetRevision: debug-demo
+    enabled: true
