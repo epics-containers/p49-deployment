@@ -50,7 +50,7 @@ ec_services:
     targetRevision: 2025.2.1
     enabled: true
   bl49p-ea-dcam-02:
-    targetRevision: 2025.2.1
+    targetRevision: main
     enabled: true
   bl49p-mo-ioc-01:
     targetRevision: 2024.11.2
