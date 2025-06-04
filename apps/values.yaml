@@ -10,7 +10,7 @@
 
 project: p49-beamline
 destination:
-  name: p49
+  name: pollux
   namespace: p49-beamline
 source:
   repoURL: https://github.com/epics-containers/p49-services
