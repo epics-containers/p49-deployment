@@ -1,12 +1,10 @@
 # Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
-_commit: 0.2.13
+_commit: 4.3.2
 _src_path: gh:epics-containers/deployment-template-argocd
-argocd_project: p49-beamline
+argocd_cluster: argus
 argocd_server: argocd.diamond.ac.uk
-cluster_name_apps: argus
-cluster_name_services: pollux
-cluster_namespace_apps: p49-beamline
-cluster_namespace_services: p49-beamline
+cluster_name: p49
+cluster_namespace: p49-beamline
 deployment_repo: https://github.com/epics-containers/p49-deployment
 description: p49 IOC Instances and Services
 git_platform: github.com

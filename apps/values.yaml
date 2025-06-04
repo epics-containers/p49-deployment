@@ -10,11 +10,15 @@
 
 project: p49-beamline
 destination:
-  name: pollux
+  name: p49
   namespace: p49-beamline
 source:
   repoURL: https://github.com/epics-containers/p49-services
+<<<<<<< before updating
   targetRevision: main
+=======
+  targetRevision: 2024.9.1
+>>>>>>> after updating
 
 services:
   # Each item is of the form:
@@ -26,6 +30,7 @@ services:
   epics-pvcs:
   epics-opis:
 
+<<<<<<< before updating
   # daq services ###############################################################
   p49-rabbitmq:
   p49-blueapi:
@@ -34,6 +39,8 @@ services:
     targetRevision: debug-demo
     enabled: true
 
+=======
+>>>>>>> after updating
 ec_services:
   # Services which have implemented support for an "enabled" parameter.
   # Each item is of the form:
@@ -43,7 +50,23 @@ ec_services:
   #            the path is always services/<service> within that repo
   #     removed: set to true to remove the service from the cluster
   #     enabled: set to false to stop a service
+<<<<<<< before updating
   bl49p-ea-panda-01:
+    targetRevision: 2025.2.1
+    enabled: true
   bl49p-ea-dcam-01:
+    targetRevision: 2025.2.1
+    enabled: true
   bl49p-ea-dcam-02:
+    targetRevision: main
+    enabled: true
   bl49p-mo-ioc-01:
+    targetRevision: 2024.11.2
+    enabled: true
+=======
+
+  # example entry
+  #   p49-ea-test-01:
+  #     enabled: true
+  #     targetRevision: 2024.9.1
+>>>>>>> after updating
