@@ -14,7 +14,7 @@ destination:
   namespace: p49-beamline
 source:
   repoURL: https://github.com/epics-containers/p49-services
-  targetRevision: main
+  targetRevision: 2025.6.1
 
 services:
   # Each item is of the form:
