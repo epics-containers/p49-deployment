@@ -25,6 +25,8 @@ services:
   #     removed: set to true to remove the service from the cluster
   epics-pvcs:
   epics-opis:
+  p49-proxy:
+  
   # daq services ###############################################################
   p49-rabbitmq:
   p49-blueapi:
