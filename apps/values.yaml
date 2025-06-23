@@ -26,7 +26,6 @@ services:
   epics-pvcs:
   epics-opis:
   p49-proxy:
-  
   # daq services ###############################################################
   p49-rabbitmq:
   p49-blueapi:
@@ -43,7 +42,7 @@ ec_services:
   #     enabled: set to false to stop a service
   bl49p-ea-panda-01:
     enabled: true
-    targetRevision: 2025.6.2
+    targetRevision: 2025.6.3
   bl49p-ea-dcam-01:
     targetRevision: 2025.6.1
     enabled: true
