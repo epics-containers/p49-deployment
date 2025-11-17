@@ -36,6 +36,7 @@ services:
 
   # IOCs
   bl49p-ea-panda-01:
+    enabled: false
   bl49p-ea-dcam-01:
   bl49p-ea-dcam-02:
   bl49p-mo-ioc-01:
