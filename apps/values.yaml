@@ -14,7 +14,7 @@ destination:
   namespace: p49-beamline
 source:
   repoURL: https://github.com/epics-containers/p49-services
-  targetRevision: add-authn
+  targetRevision: add-authn-squash
 
 services:
   # Each item is of the form:
