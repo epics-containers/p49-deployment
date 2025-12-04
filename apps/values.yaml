@@ -27,6 +27,7 @@ services:
   p49-proxy:
   p49-epics-pvcs:
   p49-epics-opis:
+  p49-epics-gateways:
 
   # daq services ###############################################################
   p49-rabbitmq:
