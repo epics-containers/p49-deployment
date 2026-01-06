@@ -32,7 +32,7 @@ services:
   # daq services ###############################################################
   p49-rabbitmq:
   p49-blueapi:
-    targetRevision: fix-persistent-volume-retention
+    targetRevision: fix-uv-cache-dir
   p49-nexus:
   p49-tiled:
 
