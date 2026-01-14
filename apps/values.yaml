@@ -32,7 +32,6 @@ services:
   # daq services ###############################################################
   p49-rabbitmq:
   p49-blueapi:
-    targetRevision: init-container-logging-issue
   p49-nexus:
   p49-tiled:
 
