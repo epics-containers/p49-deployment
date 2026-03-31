@@ -41,4 +41,5 @@ services:
     enabled: false
   bl49p-ea-dcam-01:
   bl49p-ea-dcam-02:
+    enabled: false
   bl49p-mo-ioc-01:
