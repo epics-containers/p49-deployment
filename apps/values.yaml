@@ -43,3 +43,8 @@ services:
   bl49p-ea-dcam-02:
     enabled: false
   bl49p-mo-ioc-01:
+  bl49p-ea-eiger-01:
+    enabled: true
+    targetRevision: test_debug
+    labels:
+      description:
