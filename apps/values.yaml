@@ -32,8 +32,10 @@ services:
   # daq services ###############################################################
   p49-rabbitmq:
   p49-blueapi:
-    targetRevision: add-metrics
-
+    enabled: true
+    targetRevision: main
+    labels:
+      description:
   p49-nexus:
   p49-tiled:
 
