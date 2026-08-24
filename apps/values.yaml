@@ -40,6 +40,7 @@ services:
   p49-tiled:
 
   # IOCs
+  bl49p-ea-fastcs-01:
   bl49p-ea-panda-01:
     enabled: false
   bl49p-ea-dcam-01:
