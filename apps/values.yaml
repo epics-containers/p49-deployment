@@ -41,6 +41,10 @@ services:
 
   # IOCs
   bl49p-ea-fastcs-01:
+    enabled: true
+    targetRevision: main
+    labels:
+      description:
   bl49p-ea-panda-01:
     enabled: false
   bl49p-ea-dcam-01:
