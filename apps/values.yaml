@@ -33,9 +33,7 @@ services:
   p49-rabbitmq:
   p49-blueapi:
     enabled: true
-    targetRevision: main
-    labels:
-      description:
+    targetRevision: blueapi-metrics
   p49-nexus:
   p49-tiled:
   bl49p-ea-panda-01:
